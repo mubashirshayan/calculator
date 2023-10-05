@@ -1,0 +1,70 @@
+body {
+    font-size: 15pt;
+    margin: 0px;
+    padding: 0px;
+    
+}
+.container{
+  display: flex;
+  justify-content: center ;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+ 
+  background-color: #d1bcbc;
+}
+.mainCard{
+  height: 530px;
+  width: 310px;
+  border: 5px solid black;
+  border-radius: 2%;
+  background-color: white;
+}
+.input{
+  height: 80px;
+  width: 270px;
+  border: 1px solid black;
+  background-color: dimgrey;
+  margin-left: 8px;
+  margin-top: 4px;
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+}
+.btn{
+  height: 80px;
+  /* border: 1px solid; */
+}
+.mainBtn{
+  margin-top: 6px;
+  background-color: black;
+  padding: 2px;
+  border: 5px solid white;
+  position: absolute;
+  
+}
+
+.subBtn{
+  height: 50px;
+  width: 70px;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: white;
+  border:1px solid white;
+  border-radius: 30%;
+ 
+  
+  
+}
+.equalbtn{
+width: 70px;
+height: 100px;
+position: relative;
+bottom: 50px;
+  background-color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10%;
+  
+}

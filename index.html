@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HTML</title>
+
+  <!-- HTML -->
+
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="mainCard">
+      <div><input type="text" id="input" disabled class="input"> </div>
+      <div class="mainBtn">
+        <div class="btn">
+          <button id="Ac" class="subBtn" onclick="ac()" >Ac</button>
+          <button class="subBtn" onclick="operation('/')">÷</button>
+          <button class="subBtn" onclick="operation('*')">×</button>
+          <button class="subBtn" onclick="del()">del</button>
+        </div>
+        <div class="btn">
+          <button onclick="number('7')"  class="subBtn" value="7">7</button>
+          <button value="8" class="subBtn" onclick="number('8')" >8</button>
+          <button value="9" class="subBtn" onclick="number('9')" >9</button>
+          <button class="subBtn"onclick="operation('-')">-</button>
+        </div>
+        <div class="btn">
+          <button value="4" class="subBtn" onclick="number('4')">4</button>
+          <button value="5" class="subBtn" onclick="number('5')">5</button>
+          <button value="6" class="subBtn" onclick="number('6')">6</button>
+          <button class="subBtn"onclick="operation('+')">+</button>
+        </div>
+        <div class="btn">
+          <button value="1" class="subBtn" onclick="number('1')">1</button>
+          <button value="2" class="subBtn" onclick="number('2')">2</button>
+          <button value="3" class="subBtn" onclick="number('3')">3</button>
+
+        </div>
+        <div class="btn">
+          <button class="subBtn" id="pbtn" onclick="operation('%')">%</button>
+          <button value="0" class="subBtn" onclick="number('0')" id="pbtn">0</button>
+          <button id="pbtn" class="subBtn"onclick="number('.')">.</button>
+          <button class="equalbtn" onclick="equal()" >=</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
