@@ -43,12 +43,12 @@ function equal() {
   }
 }
 
-function ac() {
+function ac(){
   input.value = ''
   str = ''
 }
 
 function del() {
-  str = str.slice(0,-1);
+  str = input.value.slice(0,-1);
   input.value = str;
 }
